@@ -1,0 +1,35 @@
+#blog {
+    font-family: Source Sans Pro;
+    padding: 20px;
+    border: #bdc3c7 20px solid;
+    max-width: 700px; /*width will stay at 700px until we decrease it too much*/
+    width: 80%; 
+    margin: 0 auto; /*this centers the contents*/
+}
+
+.blog-post {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.blog-date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.blog-quote {
+    border-left: #bdc3c7 solid 4px;
+    padding-left: 4px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
